@@ -76,7 +76,7 @@ impl_exception_stub_type!(PyConnectionRefusedError, "ConnectionRefusedError");
 impl_exception_stub_type!(PyConnectionResetError, "ConnectionResetError");
 impl_exception_stub_type!(PyDeprecationWarning, "DeprecationWarning");
 impl_exception_stub_type!(PyEOFError, "EOFError");
-impl_exception_stub_type!(PyEncodingWarning, "EncodingWarning");
+// impl_exception_stub_type!(PyEncodingWarning, "EncodingWarning");
 impl_exception_stub_type!(PyEnvironmentError, "EnvironmentError");
 impl_exception_stub_type!(PyException, "Exception");
 impl_exception_stub_type!(PyFileExistsError, "FileExistsError");
