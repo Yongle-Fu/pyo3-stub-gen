@@ -76,7 +76,7 @@ impl_exception_stub_type!(PyConnectionRefusedError, "ConnectionRefusedError");
 impl_exception_stub_type!(PyConnectionResetError, "ConnectionResetError");
 impl_exception_stub_type!(PyDeprecationWarning, "DeprecationWarning");
 impl_exception_stub_type!(PyEOFError, "EOFError");
-impl_exception_stub_type!(PyEncodingWarning, "EncodingWarning");
+// EncodingWarning is unavailable when targeting the Python 3.9 stable ABI.
 impl_exception_stub_type!(PyException, "Exception");
 impl_exception_stub_type!(PyFileExistsError, "FileExistsError");
 impl_exception_stub_type!(PyFileNotFoundError, "FileNotFoundError");
